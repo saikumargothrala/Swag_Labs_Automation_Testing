@@ -1,0 +1,77 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="username" value="standard_user"/>
+        <parameter name="password" value="secret_sauce"/>
+        <parameter name="invalidusername" value="secret"/>
+        <parameter name="invalidpassword" value="sauce"/>
+        <parameter name="firstName" value="John" />
+        <parameter name="lastName" value="Doe" />
+        <parameter name="postalCode" value="12345" />
+        <classes>
+           <class name="tests.LoginTest">
+               <methods>
+                     <include name="LoginTestWithValidCredentials"/>
+                     <include name="LoginTestWithBlankCredentials"/>   
+                     <include name="LoginTestWithBlankUserName"/>
+                     <include name="LoginTestWithBlankPassword"/>
+                     <include name="LoginTestWithInvalidPassword"/>
+                     <include name="LoginTestWithInvalidUserName"/>
+                     <include name="LoginTestWithInvalidCredentials"/>
+                </methods>
+            </class>
+            <class name="tests.LogOutTest">
+                <methods>
+                     <include name="verifyLogOutFunctionality"/>
+                </methods>
+            </class>
+            <class name="tests.ProductPageTest">
+                <methods>
+                     <include name="verifyProductFilters"/>
+                      <include name="verifyAddAndRemoveFromCartFunctionality"/>
+                </methods>
+            </class>
+            <class name="tests.CartPageTest">
+                <methods>
+                      <include name="verifyProceedToCheckout"/>
+                      <include name="verifyCartItemCount"/>
+                </methods>
+            </class>
+            <class name="tests.CheckOutInformationPageTest">
+                <methods>
+                    <include name="verifyEnterFirstName"/>
+                    <include name="verifyEnterLastName"/>
+                    <include name="verifyEnterPostalCode"/>
+                    <include name="verifyClickContinueButton"/>
+                    <include name="verifyClickFinishButton"/>
+                    <include name="verifyClickCancelButton"/>
+                    <include name="verifyErrorMessage"/>
+                </methods>
+                </class>
+            <class name="tests.CheckOutPageTest">
+                <methods>
+                    <include name="verifyClickFinishButton"/>
+                    <include name="verifyClickCancelButton"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+   <!--<test name="FirefoxTest">s
+        <parameter name="browser" value="firefox"/>
+        <parameter name="username" value="standard_user"/>
+        <parameter name="password" value="secret_sauce"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+     <test name="EdgeTest">
+        <parameter name="browser" value="edge"/>
+        <parameter name="username" value="standard_user"/>
+        <parameter name="password" value="secret_sauce"/>
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>-->
+</suite>

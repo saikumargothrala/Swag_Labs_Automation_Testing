@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="7" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-03T15:18:04 GST" name="Suite" finished-at="2024-09-03T15:18:11 GST" duration-ms="6412">
+    <groups>
+    </groups>
+    <test started-at="2024-09-03T15:18:04 GST" name="ChromeTest" finished-at="2024-09-03T15:18:11 GST" duration-ms="6412">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:tests.LoginTest@2f9f7dcf]" started-at="2024-09-03T15:18:04 GST" name="setupSuite" finished-at="2024-09-03T15:18:04 GST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:tests.LoginTest@2f9f7dcf]" started-at="2024-09-03T15:18:04 GST" name="setup" finished-at="2024-09-03T15:18:08 GST" duration-ms="3399" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.LoginTestWithValidCredentials(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTestWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2f9f7dcf]" started-at="2024-09-03T15:18:08 GST" name="LoginTestWithValidCredentials" finished-at="2024-09-03T15:18:08 GST" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestWithValidCredentials -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@2f9f7dcf]" started-at="2024-09-03T15:18:08 GST" name="teardown" finished-at="2024-09-03T15:18:08 GST" duration-ms="164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTestWithValidCredentials status=SUCCESS method=LoginTest.LoginTestWithValidCredentials(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@2f9f7dcf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method,java.lang.String)[pri:0, instance:tests.LoginTest@2f9f7dcf]" started-at="2024-09-03T15:18:08 GST" name="setup" finished-at="2024-09-03T15:18:11 GST" duration-ms="2180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.LoginTest.LoginTestWithBlankCredentials()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginTestWithBlankCredentials()[pri:0, instance:tests.LoginTest@2f9f7dcf]" started-at="2024-09-03T15:18:11 GST" name="LoginTestWithBlankCredentials" finished-at="2024-09-03T15:18:11 GST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestWithBlankCredentials -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@2f9f7dcf]" started-at="2024-09-03T15:18:11 GST" name="teardown" finished-at="2024-09-03T15:18:11 GST" duration-ms="121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTestWithBlankCredentials status=SUCCESS method=LoginTest.LoginTestWithBlankCredentials()[pri:0, instance:tests.LoginTest@2f9f7dcf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="teardownSuite()[pri:0, instance:tests.LoginTest@2f9f7dcf]" started-at="2024-09-03T15:18:11 GST" name="teardownSuite" finished-at="2024-09-03T15:18:11 GST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownSuite -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
