@@ -10,7 +10,7 @@
 <h1>Swag Labs Test Automation Framework</h1>
 
 <p>This project is a <strong>Test Automation Framework</strong> designed to automate the testing of the <strong>Swag Labs eCommerce website</strong>. The framework is built using <strong>Selenium WebDriver</strong> with <strong>Java</strong>, following the <strong>Page Object Model (POM)</strong> design pattern. <strong>TestNG</strong> is used as the testing framework, and <strong>ExtentReports</strong> is integrated for generating detailed test reports. The framework is managed through <strong>GitLab</strong> for version control, and <strong>Maven</strong> is used for dependency management and build automation.</p>
-https://github.com/user-attachments/assets/6390d6df-56fc-4289-934a-f2df7e4227e8
+
 <h2>Screen Record of Tests Running </h2>
 <p>The screen recording showcases the execution of test cases across multiple browsers, including Chrome, Firefox. The recording demonstrates that all test cases have successfully passed, ensuring consistent functionality and reliability of the Swag Labs eCommerce platform across different environments.</p>
 
