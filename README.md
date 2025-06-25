@@ -16,6 +16,10 @@
 
 https://github.com/user-attachments/assets/6390d6df-56fc-4289-934a-f2df7e4227e8
 
+
+Uploading eclipse-workspace - swag-labs-test-automation-main_src_main_resources_testng.xml - Eclipse IDE 2025-06-25 12-45-12.mp4…
+
+
 <h2>Extent Report of Tests Running</h2>
 <p>This report provides a detailed summary of all the test cases executed, including pass/fail status, test duration, and additional logs. The ExtentReport offers a visually rich interface to review test execution results, enhancing transparency and making debugging more efficient. You can view the latest test summary by accessing the report.</p>
 
