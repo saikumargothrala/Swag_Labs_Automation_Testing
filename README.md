@@ -16,11 +16,6 @@
 
 https://github.com/user-attachments/assets/d3a28162-2f40-4f02-9da9-03596dcfc097
 
-
-
-https://github.com/user-attachments/assets/6390d6df-56fc-4289-934a-f2df7e4227e8
-
-
 Uploading eclipse-workspace - swag-labs-test-automation-main_src_main_resources_testng.xml - Eclipse IDE 2025-06-25 12-45-12.mp4…
 
 
@@ -29,8 +24,6 @@ Uploading eclipse-workspace - swag-labs-test-automation-main_src_main_resources_
 
 ![Image](https://github.com/user-attachments/assets/dd620c19-07aa-4e4c-ad11-f951ff992087)
 ![Image](https://github.com/user-attachments/assets/729aac86-8dbd-43cf-b119-3426a967c4d7)
-![Extent Report](https://github.com/user-attachments/assets/ace6f597-1359-40c2-a53c-3994c6d0c007)
-![Extent Report summary](https://github.com/user-attachments/assets/942604a7-606f-4d1d-a0aa-dbf62c5f1a6c)
 
 <hr>
 
