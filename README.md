@@ -24,7 +24,7 @@ Uploading eclipse-workspace - swag-labs-test-automation-main_src_main_resources_
 <p>This report provides a detailed summary of all the test cases executed, including pass/fail status, test duration, and additional logs. The ExtentReport offers a visually rich interface to review test execution results, enhancing transparency and making debugging more efficient. You can view the latest test summary by accessing the report.</p>
 
 ![Image](https://github.com/user-attachments/assets/dd620c19-07aa-4e4c-ad11-f951ff992087)
-
+![Image](https://github.com/user-attachments/assets/729aac86-8dbd-43cf-b119-3426a967c4d7)
 ![Extent Report](https://github.com/user-attachments/assets/ace6f597-1359-40c2-a53c-3994c6d0c007)
 ![Extent Report summary](https://github.com/user-attachments/assets/942604a7-606f-4d1d-a0aa-dbf62c5f1a6c)
 
